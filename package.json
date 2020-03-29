@@ -1,8 +1,8 @@
 {
-  "name": "ever-notify",
-  "productName": "Evernotify",
+  "name": "tippani",
+  "productName": "Tippani - Evernote Client",
   "version": "1.0.1",
-  "description": "An unofficial cross-platform Evernote Web client",
+  "description": "An unofficial cross-platform client for Evernote Web",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
