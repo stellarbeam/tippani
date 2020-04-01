@@ -9,8 +9,6 @@ app.on('ready', () => {
 
     // Create a main window
     mainWindow = new BrowserWindow({
-        title: 'Evernote Web',
-        icon: `${__dirname}/assets/icons/png/evernote.png`,
         webPreferences: {
             preload: path.join(app.getAppPath(), 'preload.js')
         }
